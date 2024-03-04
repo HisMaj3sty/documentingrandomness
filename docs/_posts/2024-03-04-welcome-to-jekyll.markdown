@@ -1,29 +1,79 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Proposed functionality"
 date:   2024-03-04 14:27:49 +0300
-categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Here we introduce the [project][portal] and show the functionality that it offers.
 
-`YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![Website demo]({{ site.baseurl }}/assets/website_demo.png)
 
-Jekyll also offers powerful support for code snippets:
+### Disclaimer
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+*Currently the project is in an unstable state -- it is not ready for usage.*
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+*You may want to wait until the issues have been resolved, [track the issue here][bad_issue].*
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Motivation
+
+Graduates of Innopolis University have the desire to keep up with the life in the University even after the graduation. To this end this portal has been created.
+
+### Functionality Overview
+
+1. **_University pass requests_**: Graduates can request a pass into the University though a form
+2. **_Elective courses participation requests_**: Graduates can request to attend elective courses held in the University
+3. **_Donations_**: Graduates can leave a donation to the University with or without specifyng donation interest
+4. **_Administrative convenience_**: Admins are able to accept or deny requests from graduates with feedback
+
+### Tech Stack
+- Python FastAPI
+- Next.js
+- Docker
+- PostgreSQL
+
+### Licence
+
+The project is licenced under MIT licence. (Any usage permitted, no warranty provided)
+
+
+### Demo & Screenshots
+
+You can try accessing the [live instance][live_demo] or take a look at [pre-recorded video][demo_yt].
+
+Alternatively, you can find screenshots below.
+
+
+#### Login screen
+
+![Login screen]({{ site.baseurl }}/assets/login_screen.png)
+
+#### Home screen
+
+![Home screen]({{ site.baseurl }}/assets/home_screen.png)
+
+#### Pass request screen
+
+![Pass request screen]({{ site.baseurl }}/assets/pass_screen.png)
+
+#### Elective selection screen
+
+![Elective selection screen]({{ site.baseurl }}/assets/elective_screen.png)
+
+#### Donations screen
+
+![Donations screen]({{ site.baseurl }}/assets/donate_screen.png)
+
+
+[portal]: https://github.com/TheSharpOwl/inno-alumni-portal
+[bad_issue]: https://github.com/TheSharpOwl/inno-alumni-portal/issues/36
+[live_demo]: https://graduates.innopolis.university/
+[demo_yt]: https://www.youtube.com/watch?v=PwiZH98iqJ8
+
+<!--{% highlight bash %}
+bash be bash
+{% endhighlight %}-->
+
+
+
+
