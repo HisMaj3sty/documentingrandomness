@@ -1,0 +1,9 @@
+title: IU Graduates Portal docs
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a small static website that hosts documentation for IU Graduates Portal
+  It includes both user-oriented and developer-oriented hight-level documentation
+theme: just-the-docs
+
+baseurl: /documentingrandomness
+url: http://hismaj3sty.github.io
+
