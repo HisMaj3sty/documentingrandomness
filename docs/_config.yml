@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IU Graduates Portal documentation
+title: IU Graduates Portal docs
 description: >- # this means to ignore newlines until "baseurl:"
   This is a small static website that hosts documentation for IU Graduates Portal
   It includes both user-oriented and developer-oriented hight-level documentation
@@ -26,7 +26,7 @@ baseurl: /documentingrandomness
 url: http://hismaj3sty.github.io
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 

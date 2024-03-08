@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "Proposed functionality"
+title:  "Welcome to IU Graduate Portal"
 date:   2024-03-04 14:27:49 +0300
 ---
 
-Here we introduce the [project][portal] and show the functionality that it offers.
+# Welcome to the [IU Graduates Portal][portal]!
 
 
 ![Website demo]({{ site.baseurl }}/assets/website_demo.png)
 
 ### Disclaimer
 
-*Currently the project is in an unstable state -- it is not ready for usage.*
+*Currently the project may be in an unstable state -- it is not ready for usage.*
 
 *You may want to wait until the issues have been resolved, [track the issue here][bad_issue].*
 
@@ -26,11 +26,16 @@ Graduates of Innopolis University have the desire to keep up with the life in th
 3. **_Donations_**: Graduates can leave a donation to the University with or without specifyng donation interest
 4. **_Administrative convenience_**: Admins are able to accept or deny requests from graduates with feedback
 
-### Tech Stack
+
+### Technological stack
+
 - Python FastAPI
 - Next.js
 - Docker
 - PostgreSQL
+- Prisma ORM
+- Telebot
+- Lets Encrypt
 
 ### Licence
 
