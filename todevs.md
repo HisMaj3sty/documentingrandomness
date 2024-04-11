@@ -6,7 +6,7 @@ date:   2024-03-04 14:27:49 +0300
 
 # Development for LeadsCalendar project
 
-Here we cover how to get started with developing for the portal.
+Here we cover how to get started with developing for the project.
 
 ### Logic of the program
 
