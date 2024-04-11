@@ -1,79 +1,38 @@
 ---
 layout: post
-title:  "Welcome to IU Graduate Portal"
+title:  "Welcome to LeadsCalendar project"
 date:   2024-03-04 14:27:49 +0300
 ---
 
-# Welcome to the [IU Graduates Portal][portal]!
+# Welcome to LeadsCalendar project!
 
-
-![Website demo]({{ site.baseurl }}/assets/website_demo.png)
-
-### Disclaimer
-
-*Currently the project may be in an unstable state -- it is not ready for usage.*
-
-*You may want to wait until the issues have been resolved, [track the issue here][bad_issue].*
+This website outlines the documentation needed to create the LeadsCalendar project -- a pay-to-schedule calendar application.
 
 ### Motivation
 
-Graduates of Innopolis University have the desire to keep up with the life in the University even after the graduation. To this end this portal has been created.
+Have you ever recieved a message asking for an interview only for noone to arrive at the designated time and ask to reschedule? Then this project is aimed at you. The idea behind LeadsCalendar is to ask such people to pay some money for the event to be created. This way even if noone arrives, the time did not go to complete waste.
 
 ### Functionality Overview
 
-1. **_University pass requests_**: Graduates can request a pass into the University though a form
-2. **_Elective courses participation requests_**: Graduates can request to attend elective courses held in the University
-3. **_Donations_**: Graduates can leave a donation to the University with or without specifyng donation interest
-4. **_Administrative convenience_**: Admins are able to accept or deny requests from graduates with feedback
+* Users can create events on Google Calendar through the LeadsCalendar interface.
+* Upon event creation, users are prompted to make a payment of 1 USD or its equivalent in cryptocurrency.
+* Events are confirmed only after successful payment processing.
 
 
-### Technological stack
+### Proposed technological stack
 
-- Python FastAPI
-- Next.js
+Major dependencies:
+- Python Flask
+- React
 - Docker
-- PostgreSQL
-- Prisma ORM
-- Telebot
-- Lets Encrypt
 
-### Licence
-
-The project is licenced under MIT licence. (Any usage permitted, no warranty provided)
+Minor dependencies:
+- [react-big-calendar](https://github.com/jquense/react-big-calendar?ref=retool-blog.ghost.io)
+- [binance-pay-connector-python](https://github.com/binance/binance-pay-connector-python)
+- [google client libraries](https://developers.google.com/calendar/api/quickstart/python#install_the_google_client_library)
 
 
-### Demo & Screenshots
 
-You can try accessing the [live instance][live_demo] or take a look at [pre-recorded video][demo_yt].
-
-Alternatively, you can find screenshots below.
-
-
-#### Login screen
-
-![Login screen]({{ site.baseurl }}/assets/login_screen.png)
-
-#### Home screen
-
-![Home screen]({{ site.baseurl }}/assets/home_screen.png)
-
-#### Pass request screen
-
-![Pass request screen]({{ site.baseurl }}/assets/pass_screen.png)
-
-#### Elective selection screen
-
-![Elective selection screen]({{ site.baseurl }}/assets/elective_screen.png)
-
-#### Donations screen
-
-![Donations screen]({{ site.baseurl }}/assets/donate_screen.png)
-
-
-[portal]: https://github.com/TheSharpOwl/inno-alumni-portal
-[bad_issue]: https://github.com/TheSharpOwl/inno-alumni-portal/issues/36
-[live_demo]: https://graduates.innopolis.university/
-[demo_yt]: https://www.youtube.com/watch?v=PwiZH98iqJ8
 
 <!--{% highlight bash %}
 bash be bash
